@@ -3,8 +3,8 @@ import static org.junit.Assert.*;
 public class testKoduArvutus{
 	@Test
     public void kiiruseTest(){
-		assertEquals(5.0, testKodu.kiirus(5, 1), 0.01);
-		assertEquals(255.0, testKodu.kiirus(85, 3), 0.01);
+		assertEquals(5.0, Arvutused.kiirus(5, 1), 0.01);
+		assertEquals(255.0, Arvutused.kiirus(85, 3), 0.01);
 	}	/*
 	@Test
 	public void kytuseTest(){
