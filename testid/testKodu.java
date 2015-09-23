@@ -1,4 +1,4 @@
-public class Arvutused{
+public class Testid{
     public static double kiirusA(double d, double t){
         double kiirus = d/t;
         return kiirus;
