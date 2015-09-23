@@ -1,8 +1,9 @@
 public class Arvutused{
-    public static double kiirus(double d, double t){
-        return kiirus(d/t);
+    public static double kiirusA(double d, double t){
+        double kiirus = d/t;
+        return kiirus;
     }   
-    public static double kytus(double d){
+/*    public static double kytus(double d){
         return kytusk(d*7/100);
     }
-}
+}*/
