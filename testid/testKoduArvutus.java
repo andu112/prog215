@@ -10,6 +10,5 @@ public class testKoduArvutus{
 	public void kytuseTest(){
 		assertEquals(14, testKodu.kytusk(200), 0.01);
 		assertEquals(4.9, testKodu.kytusk(70), 0.01);
-	}
+	}*/
 }
-*/
